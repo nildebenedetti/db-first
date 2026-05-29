@@ -15,11 +15,11 @@ task: Modellare la struttura di una tabella per memorizzare tutti i dati riguard
 | tipo_carrozzeria | VARCHAR(30) | NOT NULL | INDEX |
 | n_posti | UNSIGNED TINYINT | NOT NULL | | 
 | n_porte | UNSIGNED TINYINT | NOT NULL | |
-| capienza_baule_litri | SMALLINT | NULL DEFAULT |
+| capienza_baule_litri | SMALLINT | NULL DEFAULT NULL |
 | ruota_scorta | UNSIGNED TINYINT | NOT NULL |
 | tipo_carburante | VARCHAR(15) | NOT NULL | INDEX |
 | elettrica | UNSIGNED TINYINT | NOT NULL | |
-| elettrica_tipologia | VARCHAR(15) | NULL DEFAULT | |
+| elettrica_tipologia | VARCHAR(15) | NULL DEFAULT NULL | |
 | classe_ambientale_euro | UNSIGNED TINYINT | NOT NULL | INDEX | 
 | fascia_emissioni | VARCHAR(50) | NOT NULL | |
 | targetbuyer | VARCHAR(40) | NOT NULL DEFAULT | |
